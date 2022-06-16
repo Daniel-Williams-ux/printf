@@ -1,13 +1,13 @@
 #include "holberton.h"
 
 unsigned int convert_s(va_list args, buffer_t *output,
-				unsigned char flags, int wid, int prec, unsigned char len);
+		unsigned char flags, int wid, int prec, unsigned char len);
 unsigned int convert_S(va_list args, buffer_t *output,
-				unsigned char flags, int wid, int prec, unsigned char len);
+		unsigned char flags, int wid, int prec, unsigned char len);
 unsigned int convert_r(va_list args, buffer_t *output,
-				unsigned char flags, int wid, int prec, unsigned char len);
+		unsigned char flags, int wid, int prec, unsigned char len);
 unsigned int convert_R(va_list args, buffer_t *output,
-				unsigned char flags, int wid, int prec, unsigned char len);
+		unsigned char flags, int wid, int prec, unsigned char len);
 
 /**
  * convert_s - Converts an argument to a string and
@@ -158,7 +158,7 @@ unsigned int convert_r(va_list args, buffer_t *output,
  * @prec: A precision modifier.
  * @len: A lenth modifier.
  * @output: A buffer_t struct containing a character array.
- * 
+ *
  * Return: The number of bytes stored to the buffer.
  */
 unsigned int convert_R(va_list args, buffer_t *output,
